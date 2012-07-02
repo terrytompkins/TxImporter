@@ -44,7 +44,7 @@
 				<g:if test="${importDataInstance?.fileContent}">
 				<li class="fieldcontain">
 					<span id="fileContent-label" class="property-label"><g:message code="importData.fileContent.label" default="File Content" /></span>
-					
+					<span class="property-value" aria-labelledby="fileContent-label"><g:fieldValue bean="${importDataInstance}" field="fileContent"/></span>
 				</li>
 				</g:if>
 			
